@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openAppointmentCreator(View view) {
-        Intent intent = new Intent(this, AppointmentCreator.class);
+    public void openGameTrackerViewer(View view) {
+        Intent intent = new Intent(this, GameTrackerViewer.class);
         startActivity(intent);
     }
 }
